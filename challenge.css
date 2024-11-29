@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+p {
+    font-size: 19px;
+    font-family: Inter;
+    /* src: url(https://fon    ts.google.com/specimen/Inter); */
+}
+
+body {
+    /* padding-right: 1000px; */
+    /* padding-bottom: 1000px; */
+    /* padding: 500px; */
+    background-color: hsl(0, 0%, 8%);
+}
+
+.general {
+    background-color: hsl(0, 0%, 12%);
+    padding: 150px;
+    padding-bottom: 25px;
+    padding-top: 18px;
+    margin: 50px auto 0px auto;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 0px;
+}
+
+.profile-picture {
+    width: 50px;
+    border-radius: 40px;
+}
+
+.user-name {
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    font-family: Inter;
+    margin-top: 15px;
+    width: 150px;
+    text-align: center;
+}
+
+.user-location {
+    font-weight: 600;
+    font-size: 10px;
+    color: rgb(214, 214, 74);
+    font-family: Inter;
+    width: 150px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.about-user {
+    font-weight: 400;
+    font-size: 9px;
+    color: hsl(0, 0%, 100%);
+    font-family: Inter;
+    margin-top: 30px;
+    width: 200px;
+    text-align: center;
+    word-spacing: 4px;
+    margin-bottom: 12px;
+}
+
+.user-information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6px;
+}
+
+button {
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    width: 250px;
+    height: 50px;
+    margin-top: 8px;
+    margin-bottom: 7px;
+    border: none;
+    border-radius: 4px;
+    transition: 0.15s;
+}
+
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
